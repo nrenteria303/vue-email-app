@@ -1,13 +1,13 @@
 {
-  "name": "sample-project",
-  "description": "A Vue.js project",
+  "name": "vue-email-project",
+  "description": "A Vue.js-based email app project",
   "version": "1.0.0",
   "author": "",
-  "private": true,
+  // "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
