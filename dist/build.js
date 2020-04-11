@@ -19286,7 +19286,10 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "href": "#"
     },
     on: {
-      "click": _vm.refresh
+      "click": function($event) {
+        $event.preventDefault();
+        return _vm.refresh($event)
+      }
     }
   }, [_c('i', {
     staticClass: "fa fa-refresh"
